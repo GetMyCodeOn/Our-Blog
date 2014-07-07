@@ -162,3 +162,7 @@ body {
     color: #000;
     background-color: #FFF;
 }
+
+#navbar navbar-default navbar-fixed-bottom {
+  margin-top: 20px;
+}
