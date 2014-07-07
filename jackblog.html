@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 3</title>
+<!-- this ensures that it will display the right versions on different formats e.g. web,tablet, mobile --> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href ="Boot/css/bootstrap.min.css" rel = "stylesheet ">
+<link href = "Boot/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<!-- INSERTING NAV BAR -->
+<div class = "navbar navbar-inverse navbar-static-top">
+<div class= "container">
+<!-- the # is where your url will go -->
+<a href = "#" class = "navbar-brand">#GetMyCodeOn</a>
+<!-- This is so it collapses on mobile -->
+<button class ="navbar-toggle" data-toggle+"collapse" data-target =".navHeaderCollapse">
+<span class= "icon-bar"></span>
+<span class= "icon-bar"></span>
+<span class= "icon-bar"></span>
+</button>
+<!-- This will allow to collapse when you are on mobile -->
+<div class = "collapse navbar-collapse navHeaderCollapse">
+<ul class= "nav navbar-nav navbar-right">
+
+							<li><a href = "/">Home</a></li>
+							<li><a href = "/aboutus?">Our Team</a></li>
+							
+							<li class = "dropdown active">
+
+								<a href = "/weeks" class = "dropdown-toggle" data-toggle = "dropdown"> Blog <b class = "caret"></b> </a>
+								<ul class = "dropdown-menu">
+									<li> <a href = "/weeks">Blog</a></li>
+									<li> <a href = "/jackblog">Jack</a></li>
+									<li> <a href = "/oliviablog">Olivia</a></li>
+									<li> <a href = "/askeblog">Aske</a></li>
+									<li> <a href = "/nafisablog">Nafisa</a></li>
+								</ul>
+							<li ><a href = "/socialmedia">Social Media</a></li>
+
+							<li><a href = "/portfolio2">Portfolio</a></li>
+							<li><a href = "#">Contact</a></li>
+
+						</ul> 
+				</div>
+			</div>
+		</div>
+
+
+<div class = "container">
+<div class = "jumbotron">
+		<h1>Jack's Blog</h1>
+		<p>Welcome to my Blog!</p>
+		<a href = "#WeekOne" class = "btn btn-success">Week One</a>
+		<a href = "#WeekTwo"class = "btn btn-warning">Week Two</a>
+		<a class = "btn btn-primary">Week Three</a>
+		<a class = "btn btn-danger">Week Four</a>
+
+</div>
+
+</div>
+<div class = "panel-group" id="accordion">
+	<div class = "panel panel-default">
+		<div class = "panel-heading">
+		<h4 class = "panel-title">
+			<a name = "WeekOne"data-toggle="collapse" data-parent="#accordion" href = "#collapseOne">Week One</a>
+			</h4>
+			</div>
+			<div id="collapseOne" class = "panel-collapse collapse in">
+			<div class = "panel-body">
+			<h3><a style = "color:grey">Week One</a></h3>
+<h4><a style = "color:Black">Day One: Blind Leading the Blind</a></h4>
+			<p>
+				Extremely overwhelming but looking back it was a great way to get to see the whole team function in a pressure situation. It felt like going from baby steps into a full sprint. I think it set the tone and since then we’ve really grown as a group. We came up with our team name #getmycodeon and set up the foundations that we’ve been building on ever since.</p>
+
+
+				<h4><a style = "color:Black">Day Two: We Made a (bad) Website!</a></h4>	
+				<p>Managed to construct the skeleton of our blog but lacking the beauty elements of CSS. We divided the topics up and did individual research in order to cover a broad swathe of information. As the Presenter I found it challenging to get to grips with everything the group had accomplished and relay that back to the class. </p>
+
+
+<h4><a style = "color:Black">Day Three: Jekyll and Hyde</a></h4>
+					<p>Struggling to get to grips with Jekyll we opted to dive headlong into Twitter Bootstrap and found some really great functions that we applied to the site. Having a great deal to offer the class come the presentation, it was on day three that I really began to feel that we were picking up pace and combining our strengths as a team to a single end.  </p>
+					
+			<h4><a style = "color:Black">Day Four: Hyd-ing Jekyll</a></h4>
+				<p>On Day Four our we maintained the velocity established the day before, surging ahead with progress on the site. Deciding to take a page each, I focused on our Blog’s Social Media page, inserting widgets for Twitter, Instagram and Vine. Although separately our pages looked great, we failed in linking all four together. This meant that although aesthetically our blog looked fantastic, in terms of functionality it was somewhat lacking.</p>
+
+
+				<h4><a style = "color:Black">Day Five: Lets get this Show on the Road</a></h4>
+
+				<p>After linking our pages in the morning – after a minor adjustment – we set about climbing the Jekyll mountain in front of us. We found, however, that it was a) not as difficult as we had first thought and b) not particularly necessary given that we had already created a functional website. We ended the week on a high looking forward to the next project. </p>
+			</div>
+			</div>	
+		</div>
+	
+	<div class = "panel panel-default">
+		<div class = "panel-heading">
+		<h4 class = "panel-title">
+			<a name = "WeekTwo" data-toggle="collapse" data-parent="#accordion" href = "#collapseTwo">Week Two</a>
+			</h4>
+			</div>
+			<div id="collapseTwo" class = "panel-collapse collapse">
+			<div class = "panel-body">
+			<h3><a style = "color:grey">Week Two</a></h3>
+			<h4><a style = "color:Black">Day Six: Client Side Developer Challenge</a></h4>
+					<p>Starting a new week and changing roles within the group, I became the Tutor. Our new project was to create a tabs page for The Guardian that would be a client-side, mobile-first development. I attempted to teach the class about the difference between synchronous and asynchronous data fetching, and although it was by no means a comprehensive overview I think that it was a valuable lesson in the basics of the asynchronous method of data collecting that would form the basis of Week Two’s task.</p>
+				<h4><a style = "color:Black">Day Seven: AJAX/JSON/JSONP/API/JS</a></h4>	<p>Dividing the work by gender and brand of laptop Aske and I tackled the problem of fetching data from The Guardian’s API. Looking back it seemed like an impossible task, however we tackled it head on now our tabs function works really well. Admittedly we did have some help from other groups, most notably Digital Alchemy, however the fact that we can all understand and use API’s is testament to the student led approach of Founders and Coders.</p>
+				<h4><a style = "color:Black">Day Eight: DNRY</a></h4><p>We attempted to design the tabs in HTML is order to achieve graceful degradation for those users with ‘lesser’ browsers which did not support the JavaScript we used to pull from the API. We managed to fetch a very basic string of data from The Guardian website on the morning of Day Eight, and by the afternoon had also managed to gain access to the trail text, images and short Urls. We did not, however, manage to organise this data in an aesthetically pleasing way. </p>
+				<h4><a style = "color:Black">Day Nine: Show Time! </a></h4><p>
+				Day Nine was the day of our big review and so in the hours before our presentation to Stephen Fowler at 17:00 we were engaged in a mad whirlwind of activity. Tidying up our code and tweaking our tabs and images took us right up to the wire, but we managed to get everything finished in time and were first to present. AND IT WENT DOWN A TREAT!!! Although perhaps we received an unfair amount of praise due to presenting first, it was agreed that we had fulfilled all of the criteria of the brief and perhaps you will see team #getmycodeon working with The Guardian’s front-end developer team at some point in the future!</p>
+				<h4><a style = "color:Black">Day Ten: Minor Tweaks</a></h4><p>The end of our second week was a relaxing one as, having successfully presented our work the day before, we spent our time ironing out the creases and working on Stephens recommendations. As one of the Tutors I presented to the class an idea for establishing a class-wide code convention. I thought this would make reviewing and using each others’ code an easier task.  
+				</p>
+		</div>
+	</div>	
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+		<!-- INSERTING THE FOOTER -->
+<div class = "navbar navbar-default navbar-fixed-bottom">
+<div class = "container">
+
+</div>
+</div>
+<!-- this ensures that you link to the javascript and j query files from your bootstraps so will allow for actions to be carried out -->
+<script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src ="Boot/js/bootstrap.js"></script>
+</body>
+</head>

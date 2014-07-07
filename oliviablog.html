@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 3</title>
+<!-- this ensures that it will display the right versions on different formats e.g. web,tablet, mobile --> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href ="Boot/css/bootstrap.min.css" rel = "stylesheet ">
+<link href = "Boot/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<!-- INSERTING NAV BAR -->
+<div class = "navbar navbar-inverse navbar-static-top">
+<div class= "container">
+<!-- the # is where your url will go -->
+<a href = "#" class = "navbar-brand">#GetMyCodeOn</a>
+<!-- This is so it collapses on mobile -->
+<button class ="navbar-toggle" data-toggle+"collapse" data-target =".navHeaderCollapse">
+<span class= "icon-bar"></span>
+<span class= "icon-bar"></span>
+<span class= "icon-bar"></span>
+</button>
+<!-- This will allow to collapse when you are on mobile -->
+<div class = "collapse navbar-collapse navHeaderCollapse">
+<ul class= "nav navbar-nav navbar-right">
+
+							<li><a href = "/">Home</a></li>
+							<li><a href = "/aboutus?">Our Team</a></li>
+							
+							<li class = "dropdown active">
+
+								<a href = "/weeks" class = "dropdown-toggle" data-toggle = "dropdown"> Blog <b class = "caret"></b> </a>
+								<ul class = "dropdown-menu">
+									<li> <a href = "/weeks">Blog</a></li>
+									<li> <a href = "/jackblog">Jack</a></li>
+									<li> <a href = "/oliviablog">Olivia</a></li>
+									<li> <a href = "/askeblog">Aske</a></li>
+									<li> <a href = "/nafisablog">Nafisa</a></li>
+								</ul>
+							<li ><a href = "/socialmedia">Social Media</a></li>
+
+							<li><a href = "/portfolio2">Portfolio</a></li>
+							<li><a href = "#">Contact</a></li>
+
+						</ul> 
+				</div>
+			</div>
+		</div>
+
+
+<div class = "container">
+<div class = "jumbotron">
+		<h1>Olivia's Blog</h1>
+		<p>Welcome to my Blog!</p>
+		<a href = "#WeekOne" class = "btn btn-success">Week One</a>
+		<a href = "#WeekTwo"class = "btn btn-warning">Week Two</a>
+		<a class = "btn btn-primary">Week Three</a>
+		<a class = "btn btn-danger">Week Four</a>
+
+</div>
+
+</div>
+<div class = "panel-group" id="accordion">
+	<div class = "panel panel-default">
+		<div class = "panel-heading">
+		<h4 class = "panel-title">
+			<a name = "WeekOne"data-toggle="collapse" data-parent="#accordion" href = "#collapseOne">Week One</a>
+			</h4>
+			</div>
+			<div id="collapseOne" class = "panel-collapse collapse in">
+			<div class = "panel-body">
+			<h3><a style = "color:grey">Week One</a></h3>
+<h4><a style = "color:Black">Day One: Blind Leading the Blind</a></h4>
+			<p>
+				First day at Founders and Coders! We were thrown right in at the deep end and asked to create a blog site by the end of the week! Initially, we were split into teams of four with each member taking on a role for the week, mine being the tutor. Team #GetMyCodeOn was born! Firstly, we had to set up our development (dev) environments and create a repository on github, which would become our blogsite. I spent the rest of the day along with my team members attempting to get to grips with all the commands git pull/git commit etc. After a frustrating day of error line after error line we finally managed to set up an organisation team page on git hub and created our first repository!</p>
+
+
+				<h4><a style = "color:Black">Day Two: We Made a (bad) Website!</a></h4>	
+				<p>I started off the day making myself familiar with the terminal on my laptop and all the different features it could do. Just before lunch, as my role as tutor, I gave a quick demo of my development environment and some of the exciting features I had discovered on my command line. 
+					In the afternoon we began to create the bare bones of our website using HTML and CSS. Once this had been made we became to play around with Twitter Bootstrap, and Jekyll, two front-end frameworks for styling sites.</p>
+
+
+<h4><a style = "color:Black">Day Three: Jekyll and Hyde</a></h4>
+					<p>I began the day by watching a series of tutorials on twitter bootstrap and working through them to create a more functional and visually appealing site page. Just before lunch I gave a tutorial on how to make a button on your webpage that links to a website (see tutorial here), something I had just learnt that morning! By that afternoon, as a team, we had created five functional pages using twitter bootstrap that looked great! We then began to experiment with Jekyll which proved frustrating, the styling didn't seem to be very compatible with the bootstrap styling we had used and the result wasn't great. </p>
+					
+			<h4><a style = "color:Black">Day Four: Hyd-ing Jekyll</a></h4>
+				<p>	After struggling with Jekyll some more, I decided to ditch it in favour of twitter bootstrap and just focus on making the pages functional and look nice. I began to play around with some of the features of twitter bootstrap and gave a tutorial on the grid system and the how websites built with twitter bootstrap are scalable so can be viewed on any sized device easily (check it out on your phone!).  Towards the end of the day we began the arduous process of linking our five pages together to create our blog in time for the deadline tomorrow. Try as we might, we were unable to link them together without seeing a 404 error and left in the evening feeling rather dejected. </p>
+
+
+				<h4><a style = "color:Black">Day Five: Lets get this Show on the Road</a></h4>
+
+				<p>Poised with a fresh, optimistic attitude we attempted to tackle our linking problem and successfully managed to link our five pages before 10 am! Huzzah! Now that we had a webpage which linked successfully (ish) to the other pages, we were able to focus on the content of the page and add in some new features. I gave a tutorial on using links within a webpage to navigate to different sections and began to build a navigation bar in the blog page. At the end of the first week we had successfully created a functional webpage! Go team #GetmyCodeOn! </p>
+			</div>
+			</div>	
+		</div>
+	
+	<div class = "panel panel-default">
+		<div class = "panel-heading">
+		<h4 class = "panel-title">
+			<a name = "WeekTwo" data-toggle="collapse" data-parent="#accordion" href = "#collapseTwo">Week Two</a>
+			</h4>
+			</div>
+			<div id="collapseTwo" class = "panel-collapse collapse">
+			<div class = "panel-body">
+			<h3><a style = "color:grey">Week Two</a></h3>
+			<h4><a style = "color:Black">Day Six: Client Side Developer Challenge</a></h4>
+					<p>To start off the second week we were given the challenge of creating a mobile-first app that pulls the latest news from the Guardian website asynchronously from the Guardian API. The day kicked off with an en-mass google search of APIs and asynchronous data fetching…by lunch, the concept appeared to make sense in our minds but the problem arose with how we were actually going to create code that did what we wanted to do! As we were all relatively unfamiliar with javascript it felt like a tall order. 
+
+					For my role as journalist this week I began playing around with vine and instagram to document our progress...
+							</p>
+				<h4><a style = "color:Black">Day Seven: AJAX/JSON/JSONP/API/JS</a></h4>	<p>
+				The day began again with yet more Internet searching for tutorials on a wide variety of confusing acronyms. AJAX, JSON and JSONP were the words 'du jour' but I was none the wiser as to what they actually meant, stood for or how they could be used to fetch our content. 
+
+				By lunch, other teams appeared to have created a piece of code that could fetch data in the way we wanted so after a bit of shameless plagiarisation we finished the day with basic functioning code that could pull the latest content on news, football and travel and input them into three separately labelled tabs. 
+				</p>
+				<h4><a style = "color:Black">Day Eight: DNRY</a></h4><p>As the task was to create a mobile first component, we focused on shortening the javascript code based on a further acronym DNRY-Do Not Repeat Yourself! We also worked on creating an attractive tabbed layout using javascript and also using the noscript code to flash up a warning message if the did does not have javascript enabled. </p>
+				<h4><a style = "color:Black">Day Nine: Show Time! </a></h4><p>
+				By the end of the day our app was to be scrutinised by Stephen Fowler of the Guardian! Most of the day was focused on creating the most succinct javascript code possible and creating a functioning mobile-first app that looked good on a phone and ran quickly. Things got a bit hectic but there was still time to make a quick vine introducing team #getmycodeon and we finally got our website up and running on our domain name. 
+				</p>
+				<h4><a style = "color:Black">Day Ten: Minor Tweaks</a></h4><p>The feedback from Stephen Fowler was really positive and with only a few changes to make we got to work in the morning to create our final product! 
+				It had been a technically very challenging week with a large amount of javascript fundamentals to cover but together as a team we pulled together to learn a really useful bit of code! 
+				</p>
+		</div>
+	</div>	
+	</div>
+	</div>
+
+
+		<!-- INSERTING THE FOOTER -->
+<div class = "navbar navbar-default navbar-static-bottom">
+<div class = "container">
+
+</div>
+</div>
+<!-- this ensures that you link to the javascript and j query files from your bootstraps so will allow for actions to be carried out -->
+<script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src ="Boot/js/bootstrap.js"></script>
+</body>
+</head>

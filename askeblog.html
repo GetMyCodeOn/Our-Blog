@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 3</title>
+<!-- this ensures that it will display the right versions on different formats e.g. web,tablet, mobile --> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href ="Boot/css/bootstrap.min.css" rel = "stylesheet ">
+<link href = "Boot/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<!-- INSERTING NAV BAR -->
+<div class = "navbar navbar-inverse navbar-static-top">
+<div class= "container">
+<!-- the # is where your url will go -->
+<a href = "#" class = "navbar-brand">#GetMyCodeOn</a>
+<!-- This is so it collapses on mobile -->
+<button class ="navbar-toggle" data-toggle+"collapse" data-target =".navHeaderCollapse">
+<span class= "icon-bar"></span>
+<span class= "icon-bar"></span>
+<span class= "icon-bar"></span>
+</button>
+<!-- This will allow to collapse when you are on mobile -->
+<div class = "collapse navbar-collapse navHeaderCollapse">
+<ul class= "nav navbar-nav navbar-right">
+
+							<li><a href = "/">Home</a></li>
+							<li><a href = "/aboutus?">Our Team</a></li>
+							
+							<li class = "dropdown active">
+
+								<a href = "/weeks" class = "dropdown-toggle" data-toggle = "dropdown"> Blog <b class = "caret"></b> </a>
+								<ul class = "dropdown-menu">
+									<li> <a href = "/weeks">Blog</a></li>
+									<li> <a href = "/jackblog">Jack</a></li>
+									<li> <a href = "/oliviablog">Olivia</a></li>
+									<li> <a href = "/askeblog">Aske</a></li>
+									<li> <a href = "/nafisablog">Nafisa</a></li>
+								</ul>
+							<li ><a href = "/socialmedia">Social Media</a></li>
+
+							<li><a href = "/portfolio2">Portfolio</a></li>
+							<li><a href = "#">Contact</a></li>
+
+						</ul> 
+				</div>
+			</div>
+		</div>
+
+
+<div class = "container">
+<div class = "jumbotron">
+		<h1>Aske's Blog</h1>
+		<p>Welcome to my Blog!</p>
+		<a href = "#WeekOne" class = "btn btn-success">Week One</a>
+		<a href = "#WeekTwo"class = "btn btn-warning">Week Two</a>
+		<a class = "btn btn-primary">Week Three</a>
+		<a class = "btn btn-danger">Week Four</a>
+
+</div>
+
+</div>
+
+<div class = "panel-group" id="accordion">
+	<div class = "panel panel-default">
+		<div class = "panel-heading">
+		<h4 class = "panel-title">
+			<a name = "WeekOne"data-toggle="collapse" data-parent="#accordion" href = "#collapseOne">Week One</a>
+			</h4>
+			</div>
+			<div id="collapseOne" class = "panel-collapse collapse in">
+			<div class = "panel-body">
+			<h3><a style = "color:grey">Week One</a></h3>
+<h4><a style = "color:Black">Day One: Blind Leading the Blind</a></h4>
+			<p>
+				Aporia: We started with a set of introductory lectures outlining the course and its background. So far, nothing different from most courses. 
+
+				However, then we were giving the week’s task - to build a website and blog for our group - and a list of tools that might be helpful. Then nothing, no lecture to introduce these tools, or show how to do it. We struggled and it was frustrating, several of the tools, like github/git and nitrous.io are not straightforward to use and finding information that worked for all of us across our different operating systems. The method, that did not become apparent as a method until day 2, left us floundering in the dark for several hours. Coming from University education that followed a set formula of lecture, seminar, and then essay or exam on what was taught in the previous lectures - this was drastic change. Slowly and in small jerks, one person in the room or group would find out how to do one thing and others would crowd round to learn, whereby the new knowledge spread throughout the class. Still, I left the first day frustrated and feeling that even the extensive pre-course prerequisite courses had left my woefully unprepared for the actualities of coding. 
+				</p>
+
+
+				<h4><a style = "color:Black">Day Two: We Made a (bad) Website!</a></h4>	
+				<p>
+				Light dawns: I arrived expecting more of the same confusion as reigned yesterday, but together we began to use Github and our HTML skills to build a basic website. The mood in the group and class room was completely different, we still did not know much about coding besides the basics, but I felt positive about the prospect of figuring our the workings of these tools as a group. I will write more about what I think is so valuable about the teaching approach of throwing the students in at the deep end, once I have more experience with it. At the end of the day we built a basic, but working website in HTML and hosted it on the GitHub pages. 
+				</p>
+
+
+<h4><a style = "color:Black">Day Three: Jekyll and Hyde</a></h4>
+					<p>
+					Bootstrappers get bootstrapping: Wednesday was another very productive day. Olivia found some excellent Bootstrap tutorials that gave us a foothold in that area and I felt we progressed from a very basic site to a much nice looking responsive site over the course of the day. The group vernacular, and particularly my own, had changed as well, from “erhhh, git what?” to “Yeah, just add a metatag, link to the bootstrap cdn and then git commit and push”  
+					</p>
+					
+			<h4><a style = "color:Black">Day Four: Hyd-ing Jekyll</a></h4>
+				<p>	
+				Jekyll appears: By the end of Wednesday we had built the individual pages of our website and made them nice-looking, but we struggled to find a way of combining the different pages into a single webpage where the pages linked to each other. I fell into the trap of comfort. I felt happy about finding a tool - bootstrap - that was straightforward to use and produced nice-looking results; so I hoped to be able to build the site without using other, as of yet unknown tools. Turns out that isn’t possible. The other groups had started with Jekyll, whilst we started on bootstrap. We got nice layout, whilst they built structured sites. Learning from other groups was a great help and really helped. Most of the day was spent learning this tool, but we started to make the site come together by the end of the day. There was a period where the level of confusion was approaching the first day’s, but because the other groups had spent time on Jekyll before us, we were able to break through this plateau much quicker than on day one. 
+				 </p>
+
+
+				<h4><a style = "color:Black">Day Five: Lets get this Show on the Road</a></h4>
+
+				<p>
+				Showdown: Final day of our first project. Everyone was very positive and hard at work on finishing the project in time for the afternoon presentation. I struggled with building a carousel to display snapshots of the different stages of our projects for our portfolio, which sadly I have  to give up to finish up the interlinking of our different pages on the live page. I am amazed at how far we have come in this week. I feel that building this site would not have been possible with a traditional teacher-led course. The constant social pressure and responsibility of team roles and focus on self and group reliance in solving project problems created a very productive environment, that though frustrating, was successful.  
+				 </p>
+
+			</div>
+			</div>	
+		</div>
+	
+	<div class = "panel panel-default">
+		<div class = "panel-heading">
+		<h4 class = "panel-title">
+			<a name = "WeekTwo" data-toggle="collapse" data-parent="#accordion" href = "#collapseTwo">Week Two</a>
+			</h4>
+			</div>
+			<div id="collapseTwo" class = "panel-collapse collapse">
+			<div class = "panel-body">
+			<h3><a style = "color:grey">Week Two</a></h3>
+			<h4><a style = "color:Black">Day Six: Client Side Developer Challenge</a></h4>
+					<p>
+					Confidence: Today started in the opposite way to last week: we were given the challenge to build a widget that would pull content from the Guardian API and display the results from Football, UK News, and Travel in different tabs. The brief included building the site responsive and mobile first. I felt extremely confident about this brief and we got started quickly on building the basic layout. Very confidently I predicted we would be finished by Wednesday, well in advance of the code assessment by the Guardian’s Stephan Fowler. 
+
+					</p>
+				<h4><a style = "color:Black">Day Seven: AJAX/JSON/JSONP/API/JS</a></h4>	<p>
+				Hubris: Yep, wildly underestimated the difficulty of the task. As the morning progressed and none of us had found a way of pulling content from the Guardian API - the core of our project - and no clear way to progress, the confusion of week 1 entered into week 2. It appeared to me as though all the other groups had figured it out and I felt horribly behind. However, after meeting the other project managers it became clear that the other groups were in a similar position to us. We spent most of the day blindly searching for tutorials and guides on google. 
+
+				</p>
+				<h4><a style = "color:Black">Day Eight: DNRY</a></h4>
+
+				<p>
+				Steal, then understand: Today was a revelation in that we found a solution to the data fetching problem. Jack was great at implementing and tweaking it to our needs. I got too caught up in the other tasks instead of sitting down and properly understanding how the AJAX called actually work. This was a hinderance in our code evaluations and going forward I will strive to always understand all of our code when we implement it and not later.  
+				</p>
+
+				<h4><a style = "color:Black">Day Nine: Show Time! </a></h4>
+				
+				<p>
+				Judgement Day: Our big day is here, at five Stephan Fowler of the Guardian is coming to asses our widget. We have the functionality working, but it looks terrible. At two, we find out that our tabs, written in CSS3 does not work in IE9 - which the brief states the widget has to be compatible with. Until the presentation we work at full blast to get the MVP ready. 
+				</p>
+
+				<h4><a style = "color:Black">Day Ten: Minor Tweaks</a></h4>
+				<p>Putting the house in order: I feel relaxed today, the presentation went well yesterday. I spend most of the day tidying up our backlog on Pivotal tracker and setting down with the group going through our code, line by line. The mood is good and we get to know each other better over pizza in the garden, courtesy of the first official GetMyCodeOn expedition to the outside world! The sunshine hurt our eyes and harmed our progressing developer complexions after two weeks in our coding lair.  
+				</p>
+		</div>
+	</div>	
+	</div>
+	</div>
+
+
+
+
+		<!-- INSERTING THE FOOTER -->
+<div class = "navbar navbar-default navbar-fixed-bottom">
+<div class = "container">
+
+</div>
+</div>
+<!-- this ensures that you link to the javascript and j query files from your bootstraps so will allow for actions to be carried out -->
+<script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src ="Boot/js/bootstrap.js"></script>
+</body>
+</head>
