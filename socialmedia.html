@@ -1,49 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Bootstrap 3</title>
-<!-- this ensures that it will display the right versions on different formats e.g. web,tablet, mobile --> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href ="Boot/css/bootstrap.min.css" rel = "stylesheet ">
-<link href = "Boot/css/styles.css" rel="stylesheet">
-</head>
+---
+layout: default
+---
+
+
+
 <body>
-<!-- INSERTING NAV BAR -->
-<div class = "navbar navbar-inverse navbar-static-top">
-<div class= "container">
-<!-- the # is where your url will go -->
-<a href = "#" class = "navbar-brand">#GetMyCodeOn</a>
-<!-- This is so it collapses on mobile -->
-<button class ="navbar-toggle" data-toggle+"collapse" data-target =".navHeaderCollapse">
-<span class= "icon-bar"></span>
-<span class= "icon-bar"></span>
-<span class= "icon-bar"></span>
-</button>
-<!-- This will allow to collapse when you are on mobile -->
-<div class = "collapse navbar-collapse navHeaderCollapse">
-<ul class= "nav navbar-nav navbar-right">
 
-							<li><a href = "/">Home</a></li>
-							<li><a href = "/aboutus?">Our Team</a></li>
-							
-							<li class = "dropdown">
-
-								<a href = "/weeks" class = "dropdown-toggle" data-toggle = "dropdown"> Blog <b class = "caret"></b> </a>
-								<ul class = "dropdown-menu">
-									<li> <a href = "/weeks">Blog</a></li>
-									<li> <a href = "/jackblog">Jack</a></li>
-									<li> <a href = "/oliviablog">Olivia</a></li>
-									<li> <a href = "/askeblog">Aske</a></li>
-									<li> <a href = "/nafisablog">Nafisa</a></li>
-								</ul>
-							<li class = "active"><a href = "/socialmedia">Social Media</a></li>
-
-							<li><a href = "/portfolio2">Portfolio</a></li>
-							<li><a href = "#">Contact</a></li>
-
-						</ul> 
-				</div>
-			</div>
-		</div>
 <!-- INSERTING BODY OF HOME -->
 <div class = "container">
 <div class = "jumbotron text-center">
@@ -110,23 +72,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<!-- INSERTING THE FOOTER -->
-<div class = "navbar navbar-default navbar-fixed-bottom">
-<div class = "container">
-<p class = "navbar-text pull-left"> Site built by Nafisa</p>
-<a href = "http://www.youtube.com/watch?v=rifQY0k7r7A" class = "btn btn-danger pull-right"> Subscribe on YouTube </a>
-</div>
 <!-- this ensures that you link to the javascript and j query files from your bootstraps so will allow for actions to be carried out -->
 <script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src ="Boot/js/bootstrap.js"></script>
