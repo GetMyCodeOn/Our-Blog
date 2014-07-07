@@ -1,9 +1,59 @@
----
-layout: default
----
-
+<!DOC TYPE html>
+<html>
+<head>
+	<title>Bootstrap 3</title>
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+		<link href = "Boot/css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "Boot/styles.css" rel = "stylesheet">
+		<link href = "Boot/css/bootstrap.icon-large.min.css" rel = "stylesheet">
+</head>
 <body>
 
+<div class = "navbar navbar-inverse navbar-static-top"
+
+		<!-- ensures that everything following is centered and stays in the navbar -->
+			<div class = "container">
+
+				<a class = "navbar-brand">#GetMyCodeOn</a> 
+
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<!--Ensures that the header collapses on a small screen like a mobile, until you press a button (to come)-->
+
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+
+				<!-- styles the navbar item and moves it to the right -->
+					<ul class = "nav navbar-nav navbar-right">
+ 
+							<!-- The class "active" works on most things that are buttons, indents them -->
+
+							<li><a href = "/">Home</a></li>
+							<li class = "active"><a href = "/aboutus">Our Team</a></li>
+							
+							<li class = "dropdown">
+
+								<a href = "/weeks" class = "dropdown-toggle" data-toggle = "dropdown"> Blog <b class = "caret"></b> </a>
+								<ul class = "dropdown-menu">
+									<li> <a href = "/weeks">Blog</a></li>
+									<li> <a href = "/jackblog">Jack</a></li>
+									<li> <a href = "/oliviablog">Olivia</a></li>
+									<li> <a href = "/askeblog">Aske</a></li>
+									<li> <a href = "/nafisablog">Nafisa</a></li>
+								</ul>
+							<li ><a href = "/socialmedia">Social Media</a></li>
+
+							<li><a href = "/portfolio2">Portfolio</a></li>
+							<li><a href = "#">Contact</a></li>
+
+						</ul> 
+				</div>
+			</div>
+		</div>
+</header>
 <div class = "container">
 <div class = "jumbotron">
 		<h1>Meet the Team</h1>
@@ -122,6 +172,15 @@ layout: default
 	</div>
 </div>
 
+
+<div class = "navbar navbar-default navbar-fixed-bottom">
+	<div class = "container">
+	<p class = "navbar-text pull-left">Site Built by GetMyCodeOn</p>
+	
+	<!-- button linking to twitter -->
+	
+	</div>
+</div>
 
 <script src ="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
 <script src ="Boot/js/bootstrap.js"> </script>
